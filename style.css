@@ -1,6 +1,34 @@
 body{
     margin: 0 auto;
 }
+.navbar{
+    margin: 0 auto;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#CB380D;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(164, 255, 168);
+    color: #000000;
+  }
 .flex-container{
     display: flex;  
 }
@@ -9,7 +37,7 @@ body{
     margin: 19px;
 }
 .h-color{
-    color:rgb(123, 255, 145);
+    color:rgb(233, 198, 0);
 }
 .header-part {
     width: 50%;
@@ -94,10 +122,26 @@ body{
     padding-left: 10%;
     box-shadow: 0 0 8px #000000; 
 }
-footer{
+#footer{
     background-color: black;
     color: white;
     margin-top: 5%;
-    padding: 15px 0px 9%;
+    padding-top: 10px;
     text-align:center;       
+}
+footer h4{
+    padding: 20px;
+    margin: 10px;
+}
+input[type=email]{
+    width: 150px;
+    padding: 10px;
+    margin: 2px;
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    margin: 2px;
+    background-color: aquamarine;
 }
